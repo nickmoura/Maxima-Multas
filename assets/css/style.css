@@ -157,6 +157,58 @@ main h1, h2 {
 	align-items: center;
 	border-radius: 10px;
   }
+  
+  /*Para a página de reset da senha*/
+
+  .principal-esqueci-senha {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+
+
+  .conteudo-esqueci-senha {
+	color: #c0c0c0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+  }
+
+  .conteudo-esqueci-senha h2 {
+	margin-bottom: 10px;
+  }
+
+  .area-esqueci-senha {
+	display: flex;
+	flex-direction: row;
+	gap: 24px;
+	align-items: center;
+  }
+
+  .campo-esqueci-senha {
+	width: 250px;
+	height: 40px;
+	border: 2px solid #605d5d;
+	border-radius: 4px;
+	margin: 0 auto;
+	padding: 0 6px;
+	/*box-shadow: 0 0 4px 0 rgba(226,83,53,.8);
+    outline: 0;*/ /*desativei essas duas linhas porque só funciona caso o usuário erre a senha*/
+  }
+
+  .preciso-de-ajuda {
+	color: #c0c0c0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+  }
+
+  .preciso-de-ajuda h3 {
+	margin: 16px 0 5px 0;
+  }
+
 
 /* Para a página de login*/
 
@@ -247,7 +299,7 @@ main h1, h2 {
 
 .nologin {
 	color: #00ff88;
-
+	text-align: center;
 }
 
 .btn-login {
@@ -268,7 +320,7 @@ main h1, h2 {
 
 
 
-@media only screen and (min-width: 601px) and (max-width: 999px){
+@media only screen and (min-width: 601px) and (max-width: 1200px){
 	header {
 		height: 8%;
 		width: 100%;
