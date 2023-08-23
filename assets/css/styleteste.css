@@ -1,0 +1,128 @@
+/* Estilos base */
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+  }
+  
+  header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #333;
+	color: white;
+  }
+  
+  nav a {
+	color: white;
+	margin-right: 20px;
+	text-decoration: none;
+  }
+  
+  .main-login {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	padding: 20px;
+  }
+  
+  .left-login-image {
+	max-width: 100%;
+  }
+  
+  .card-login {
+	background-color: #f4f4f4;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-login {
+	background-color: #333;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  footer {
+	text-align: center;
+	padding: 20px;
+	background-color: #333;
+	color: white;
+  }
+  
+  /* Estilos para telas pequenas */
+  @media screen and (max-width: 600px) {
+	header {
+	  flex-direction: column;
+	  text-align: center;
+	}
+  
+	.logo-maxima {
+	  margin-bottom: 10px;
+	}
+  
+	.main-login {
+	  padding: 10px;
+	}
+  }
+  
+  /* Estilos para telas médias */
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+	header {
+	  padding: 10px;
+	}
+  
+	nav {
+	  flex-direction: column;
+	  align-items: flex-start;
+	  margin-top: 10px;
+	}
+  
+	.main-login {
+	  flex-direction: row;
+	  justify-content: space-between;
+	  align-items: center;
+	}
+  
+	.left-login,
+	.right-login {
+	  flex: 1;
+	  padding: 10px;
+	}
+  
+	.left-login-image {
+	  max-width: 80%;
+	}
+  
+	.card-login {
+	  padding: 10px;
+	}
+  }
+  
+  /* Estilos para telas grandes */
+  @media screen and (min-width: 1025px) {
+	header {
+	  padding: 20px;
+	}
+  
+	nav {
+	  flex-direction: row;
+	  margin-top: 0;
+	}
+  
+	.main-login {
+	  padding: 20px;
+	}
+  
+	.left-login {
+	  padding-right: 20px;
+	}
+  
+	.right-login {
+	  padding-left: 20px;
+	}
+  }
+  
