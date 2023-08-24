@@ -394,7 +394,7 @@ main h1, h2 {
 
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 301px) and (max-width: 600px){
 	
 	header {
 		height: 8%;
@@ -483,4 +483,94 @@ main h1, h2 {
 		flex-direction: column;
 	}
 
+}
+
+@media only screen and (max-width: 300px) {
+
+	header {
+		height: 8%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		gap: 10px;
+		margin-top: 0;
+		padding: 8px;
+	}
+
+	.logo-maxima {
+		width: 50%;
+	}
+
+	.logo-maxima img {
+		width: 100%;
+	}
+
+	nav {
+		width: 60%;
+		text-align: center;
+	}
+
+	nav a {
+		margin: auto;
+	}
+
+	.main-login {
+		flex-direction: column;
+		height: 84%;
+		margin: 20px 0 20px 0;
+	}
+
+	.left-login > h1 {
+		display: none;
+	}
+
+	.left-login {
+		width: 100%;
+		height: auto;
+	}
+
+	.left-login-image {
+		width: 80%;
+		margin: 8px;
+	  }
+
+	.right-login {
+		width: 100%;
+		height: auto;
+		align-items: center;
+	}
+
+	.left-login-image {
+		width: 50vw;
+		margin: 8px;
+	}
+
+	.card-login {
+		width: 90%;
+		text-align: center;
+	}
+
+	footer {
+		height: 8%;
+	}
+
+	.descricao-inicio {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.container-foto {
+		margin: auto;
+	}
+
+	.mapa {
+		width: 200px;
+		height: 200px;
+    }
+
+	.container-depoimentos {
+		display: flex;
+		flex-direction: column;
+	}
 }
