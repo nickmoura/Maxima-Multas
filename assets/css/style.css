@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,400&display=swap');
+
 /* Para todas as páginas*/
 body {
 	margin: 0;
@@ -15,12 +16,12 @@ a {
 	color: orange;
 }
 
-a:visited { 
+a:visited {
 	color: orange;
 }
 
 header {
-	width: 100vw;
+	/*width: 100vw;*/
 	height: 8vh;
 	border-bottom: 0.2px solid white;
 	display: flex;
@@ -30,6 +31,7 @@ header {
 	padding: 24px;
 	text-align: center;
 	margin: auto;
+	padding: 32px;
 }
 
 .logo-maxima {
@@ -55,9 +57,25 @@ nav {
 	justify-content: space-around;
 }
 
+main {
+	/*width: 100vw;*/
+	padding: 20px;
+}
+
+main h1,
+h2,
+h3 {
+	color: #00ff88;
+}
+
+main h1,
+h2 {
+	text-align: center;
+}
+
 footer {
 	border-top: 0.2px solid white;
-	width: 100vw;
+	/*width: 100vw;*/
 	height: 8vh;
 	padding: 32px;
 	text-align: center;
@@ -69,17 +87,7 @@ footer p {
 	margin: 0 auto;
 }
 
-main {
-	margin: 20px;
-}
 
-main h1, h2, h3 {
-	color: #33ff99;
-}
-
-main h1, h2 {
-	text-align: center;
-}
 
 /*Home page*/
 
@@ -95,22 +103,36 @@ main h1, h2 {
 	gap: 24px;
 }
 
-.descricao img {
+.container-foto img {
 	height: auto;
 	border-radius: 10px;
 }
 
 .descricao-texto p {
-	text-indent: 20px;	
+	text-indent: 20px;
+}
+
+.servicos ul {
+	padding: 0;
 }
 
 .servicos ul li {
 	list-style-type: none;
 }
 
+.servicos ul li h3 {
+	text-align: center;
+}
+
 .servicos ul li p {
 	color: #c0c0c0;
+	text-align: center;
 }
+
+/*	.servicos ul li p {
+text-align: justify;
+}
+*/
 
 .container-depoimentos {
 	display: flex;
@@ -135,92 +157,97 @@ main h1, h2 {
 	content: "";
 	clear: both;
 	display: table;
-  }
+}
 
-  .depoimento img {
+.depoimento img {
 	float: left;
 	margin-right: 20px;
 	border-radius: 50%;
-  }
+}
 
-  .depoimento span {
+.depoimento span {
 	font-size: 20px;
 	margin-right: 15px;
-  }
+}
 
-  .paralelos {
+.paralelos {
 	align-items: center;
 	text-align: center;
-  }
+}
 
-  .mapa {
+.mapa {
 	align-items: center;
 	border-radius: 10px;
-  }
-  
-  /*Para a página de reset da senha*/
+}
 
-  .principal-esqueci-senha {
+
+/*Para a página de reset da senha*/
+
+.principal-esqueci-senha {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-  }
+	justify-content: center;
+}
 
 
-  .conteudo-esqueci-senha {
+.conteudo-esqueci-senha {
 	color: #c0c0c0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	gap: 12px;
-  }
+}
 
-  .conteudo-esqueci-senha h2 {
+.conteudo-esqueci-senha h2 {
 	margin-bottom: 10px;
-  }
+}
 
-  .area-esqueci-senha {
+.area-esqueci-senha {
 	display: flex;
 	flex-direction: row;
 	gap: 24px;
 	align-items: center;
-  }
+	justify-content: center;
+}
 
-  .campo-esqueci-senha {
-	width: 250px;
-	height: 40px;
-	border: 2px solid #605d5d;
-	border-radius: 4px;
-	margin: 0 auto;
-	padding: 0 6px;
-	/*box-shadow: 0 0 4px 0 rgba(226,83,53,.8);
-    outline: 0;*/ /*desativei essas duas linhas porque só funciona caso o usuário erre a senha*/
-  }
+.field-forgot-pass {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 24px;
+}
 
-  .preciso-de-ajuda {
+.span-no-margin {
+	margin: 0;
+}
+
+.preciso-de-ajuda {
 	color: #c0c0c0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 8px;
-  }
+	margin-bottom: 20px;
+}
 
-  .preciso-de-ajuda h3 {
+.preciso-de-ajuda h3 {
 	margin: 16px 0 5px 0;
-  }
+}
 
 
-/* Para a página de login*/
+/* Para a página de login e de cadastro*/
 
-.main-login {
-	width: 100vw;
+.main-login-signup {
 	height: 84vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.left-login	{
+.left-login-signup {
 	width: 50vw;
 	height: 84vh;
 	display: flex;
@@ -229,16 +256,17 @@ main h1, h2 {
 	flex-direction: column;
 }
 
-.left-login > h1 {
-	font-size: 3vw;
-	color: #77ffc0;
+.left-login-signup>h1 {
+	font-size: 2rem;
+	color: #00ff88;
+	margin: 0;
 }
 
-.left-login-image {
+.left-login-signup img {
 	width: 35vw;
 }
 
-.right-login {
+.right-login-signup {
 	width: 50vw;
 	height: 84vh;
 	display: flex;
@@ -259,41 +287,87 @@ main h1, h2 {
 	box-shadow: 0px 10px 40px #00000056;
 }
 
+.card-signup {
+	width: 60%;
+	height: 95%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 30px 35px;
+	background: #2f2841;
+	border-radius: 20px;
+	box-shadow: 0px 10px 40px #00000056;
+}
+
 .card-login > h1 {
 	color: #00ff88;
 	font-weight: 800;
 	margin: 0;
+	margin-bottom: 20px;
+	text-transform: uppercase;
 }
 
-.textfield {
+.card-signup > h1 {
+	color: #00ff88;
+	font-weight: 800;
+	margin: 0;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.alternative {
+	color: #c0c0c0;
+}
+
+label {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
-	margin: 10px 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #f0ffffde;
 }
 
+label > span {
+	margin-bottom: 10px;
+}
 
-.textfield > input {
+label > input {
 	width: 100%;
 	border: none;
 	border-radius: 10px;
 	padding: 15px;
 	background: #514869;
 	color: #f0ffffde;
-	font-size: 12pt;
+	font-size: 1.1rem;
 	box-shadow: 0px 10px 40px #00000056;
 	outline: none;
 	box-sizing: border-box;
 }
 
-.textfield > label {
-	color: #f0ffffde;
-	margin-bottom: 10px;
+label > input::placeholder {
+	color: #f0ffff94;
 }
 
-.textfield > input::placeholder {
+label > textarea {
+	width: 100%;
+	border: none;
+	border-radius: 10px;
+	padding: 15px;
+	background: #514869;
+	color: #f0ffffde;
+	font-size: 1.1rem;
+	box-shadow: 0px 10px 40px #00000056;
+	outline: none;
+	box-sizing: border-box;
+	font-family: 'Noto Sans', sans-serif;
+	resize: none;
+}
+
+label > textarea::placeholder {
 	color: #f0ffff94;
 }
 
@@ -302,7 +376,7 @@ main h1, h2 {
 	text-align: center;
 }
 
-.btn-login {
+.btn-login-signup {
 	width: 100%;
 	padding: 16px 0px;
 	margin: 25px;
@@ -316,11 +390,34 @@ main h1, h2 {
 	background: #00ff88;
 	cursor: pointer;
 	box-shadow: 0px 10px 40px -12px #00ff8052;
+	font-size: 1.1rem;
 }
 
+.btn-login-signup:hover {
+	background: #02d271;
+	transition: all .3s ease-in-out;
+}
 
+.social-media {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	gap: 48px;
+}
 
-@media only screen and (min-width: 601px) and (max-width: 1200px){
+.social-media a {
+	text-decoration: none;
+}
+
+.social-media img {
+	width: 36px;
+}
+
+.social-media a:first-child img {
+	margin-left: 0;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
 	header {
 		height: 8%;
 		width: 100%;
@@ -343,31 +440,41 @@ main h1, h2 {
 		margin: auto;
 	}
 
-	.main-login {
+	.servicos ul li p {
+		text-align: justify;
+	}
+
+	.main-login-signup {
 		height: 84%;
 		margin: 20px 0 20px 0;
 	}
 
-	.left-login {
+	.left-login-signup {
 		height: 100%;
 	}
 
-	.left-login-image {
+	.left-login-signup-image {
 		width: 80%;
 		margin: 8px;
 	}
 
-	.right-login {
+	.right-login-signup {
 		width: 50%;
 		height: auto;
 		align-items: center;
-	  }
+	}
 
-	  .card-login {
+	.card-login {
 		width: 90%;
 		height: auto;
 		text-align: center;
-	  }
+	}
+
+	.card-signup {
+		width: 90%;
+		height: auto;
+		text-align: center;
+	}
 
 	footer {
 		height: 8%;
@@ -381,11 +488,11 @@ main h1, h2 {
 	.container-foto {
 		margin: auto;
 	}
-
+	
 	.mapa {
 		width: 600px;
 		height: 450px;
-    }
+	}
 
 	.container-depoimentos {
 		display: flex;
@@ -394,8 +501,8 @@ main h1, h2 {
 
 }
 
-@media only screen and (min-width: 301px) and (max-width: 600px){
-	
+@media only screen and (min-width: 301px) and (max-width: 600px) {
+
 	header {
 		height: 8%;
 		width: 100%;
@@ -424,33 +531,33 @@ main h1, h2 {
 		margin: auto;
 	}
 
-	.main-login {
+	.main-login-signup {
 		flex-direction: column;
 		height: 84%;
 		margin: 20px 0 20px 0;
 	}
 
-	.left-login > h1 {
+	.left-login-signup>h1 {
 		display: none;
 	}
 
-	.left-login {
+	.left-login-signup {
 		width: 100%;
 		height: auto;
 	}
 
-	.left-login-image {
+	.left-login-signup-image {
 		width: 80%;
 		margin: 8px;
-	  }
+	}
 
-	.right-login {
+	.right-login-signup {
 		width: 100%;
 		height: auto;
 		align-items: center;
 	}
 
-	.left-login-image {
+	.left-login-signup-image {
 		width: 50vw;
 		margin: 8px;
 	}
@@ -458,6 +565,15 @@ main h1, h2 {
 	.card-login {
 		width: 90%;
 		text-align: center;
+	}
+
+	.card-signup {
+		width: 90%;
+		text-align: center;
+	}
+
+	.servicos ul li p {
+		text-align: justify;
 	}
 
 	footer {
@@ -468,15 +584,19 @@ main h1, h2 {
 		display: flex;
 		flex-direction: column;
 	}
-	
+
 	.container-foto {
+		margin: auto;
+	}
+
+	.btn-login-signup {
 		margin: auto;
 	}
 
 	.mapa {
 		width: 300px;
 		height: 300px;
-    }
+	}
 
 	.container-depoimentos {
 		display: flex;
@@ -515,38 +635,43 @@ main h1, h2 {
 		margin: auto;
 	}
 
-	.main-login {
+	.main-login-signup {
 		flex-direction: column;
 		height: 84%;
 		margin: 20px 0 20px 0;
 	}
 
-	.left-login > h1 {
+	.left-login-signup>h1 {
 		display: none;
 	}
 
-	.left-login {
+	.left-login-signup {
 		width: 100%;
 		height: auto;
 	}
 
-	.left-login-image {
+	.left-login-signup-image {
 		width: 80%;
 		margin: 8px;
-	  }
+	}
 
-	.right-login {
+	.right-login-signup {
 		width: 100%;
 		height: auto;
 		align-items: center;
 	}
 
-	.left-login-image {
+	.left-login-signup-image {
 		width: 50vw;
 		margin: 8px;
 	}
 
 	.card-login {
+		width: 90%;
+		text-align: center;
+	}
+
+	.card-signup {
 		width: 90%;
 		text-align: center;
 	}
@@ -559,7 +684,7 @@ main h1, h2 {
 		display: flex;
 		flex-direction: column;
 	}
-	
+
 	.container-foto {
 		margin: auto;
 	}
@@ -567,7 +692,7 @@ main h1, h2 {
 	.mapa {
 		width: 200px;
 		height: 200px;
-    }
+	}
 
 	.container-depoimentos {
 		display: flex;

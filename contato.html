@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Máxima Multas - Contato</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="shortcut icon" href="assets/img/maxima-multas-website-favicon-color.png" type="image/x-icon">
+	<script src="main.js" defer></script>
+</head>
+<body>
+	<header>
+		<div class="logo-maxima">
+			<a href="index.html">
+				<img class="img-logo-maxima" src="assets/img/maxima-logo.png" alt="Logo da Máxima Multas">
+			</a>
+		</div>
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="confira.html">Confira sua CNH</a>
+			<a href="contato.html">Contato</a>
+		</nav>
+	</header>
+	<main class="main-login-signup">
+		<section class="left-login-signup">
+			<h1>Dúvidas? Entre em contato conosco!</h1>
+			<img src="assets/img/Contact us-pana.svg" class="left-login-image" alt="Contate-nos - ilustração">
+		</section>
+		<section class="right-login-signup">
+			<div class="card-login">
+				<h1>Envie sua mensagem</h1>
+				<label for="name">
+					<span>Nome</span>
+					<input type="text" id="name" name="name" placeholder="Nome completo">
+				</label>
+				<label for="mobile">
+					<span>Celular</span>
+					<input type="tel" name="mobile" id="cel" inputmode="numeric" placeholder="(xx) 00000-0000" maxlength="15">
+				</label>
+				<label for="email">
+					<span>E-mail</span>
+					<input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+				</label>
+				<label for="message">
+					<span>Mensagem</span>
+					<textarea name="message" id="message" cols="50" rows="4" placeholder="Digite aqui sua mensagem. No máximo 500 caracteres." maxlength="500"></textarea>
+				</label>
+				<input class="btn-login-signup" type="submit" onclick="alert('Sua mensagem foi enviada! Em breve entraremos em contato.')" value="Enviar mensagem">
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>
+			© 2023 - Nickolas Moura - Todos os direitos reservados - Criado para <a
+				href="https://github.com/nickmoura">meu portfólio de GitHub</a>
+		</p>
+	</footer>
+</body>
+</html>
