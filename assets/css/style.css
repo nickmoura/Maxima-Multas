@@ -524,17 +524,18 @@ label > textarea::placeholder {
 
 	nav {
 		width: 60%;
-		text-align: center;
-	}
+		text-align: center;	}
 
 	nav a {
 		margin: auto;
+		font-size: 14px;
 	}
 
 	.main-login-signup {
 		flex-direction: column;
 		height: 84%;
 		margin: 20px 0 20px 0;
+		padding: 0;
 	}
 
 	.left-login-signup>h1 {
@@ -544,6 +545,7 @@ label > textarea::placeholder {
 	.left-login-signup {
 		width: 100%;
 		height: auto;
+		margin-bottom: 20px;
 	}
 
 	.left-login-signup-image {
@@ -565,6 +567,12 @@ label > textarea::placeholder {
 	.card-login {
 		width: 90%;
 		text-align: center;
+		gap: 12px;
+		font-size: 14px;
+	}
+
+	.card-login label input::placeholder {
+		font-size: 14px;
 	}
 
 	.card-signup {
@@ -578,6 +586,7 @@ label > textarea::placeholder {
 
 	footer {
 		height: 8%;
+		font-size: 14px;
 	}
 
 	.descricao-inicio {
@@ -589,10 +598,6 @@ label > textarea::placeholder {
 		margin: auto;
 	}
 
-	.btn-login-signup {
-		margin: auto;
-	}
-
 	.mapa {
 		width: 300px;
 		height: 300px;
@@ -601,6 +606,18 @@ label > textarea::placeholder {
 	.container-depoimentos {
 		display: flex;
 		flex-direction: column;
+	}
+
+	#message {
+		font-size: 14px;
+	}
+
+	#message::placeholder {
+		font-size: 14px;
+	}
+
+	#sendmessage {
+		font-size: 14px;
 	}
 
 }
@@ -633,12 +650,14 @@ label > textarea::placeholder {
 
 	nav a {
 		margin: auto;
+		font-size: 12px;
 	}
 
 	.main-login-signup {
 		flex-direction: column;
 		height: 84%;
 		margin: 20px 0 20px 0;
+		padding: 0;
 	}
 
 	.left-login-signup>h1 {
@@ -648,6 +667,7 @@ label > textarea::placeholder {
 	.left-login-signup {
 		width: 100%;
 		height: auto;
+		margin-bottom: 20px;
 	}
 
 	.left-login-signup-image {
@@ -659,6 +679,7 @@ label > textarea::placeholder {
 		width: 100%;
 		height: auto;
 		align-items: center;
+		font-size: 12px;
 	}
 
 	.left-login-signup-image {
@@ -671,13 +692,23 @@ label > textarea::placeholder {
 		text-align: center;
 	}
 
+	.card-login label input::placeholder {
+		font-size: 12px;
+	}
+
 	.card-signup {
 		width: 90%;
 		text-align: center;
 	}
 
+	.card-signup label input::placeholder {
+		font-size: 12px;
+	}
+	
+
 	footer {
 		height: 8%;
+		font-size: 12px;
 	}
 
 	.descricao-inicio {
@@ -687,6 +718,24 @@ label > textarea::placeholder {
 
 	.container-foto {
 		margin: auto;
+	}
+	
+	.btn-login-signup {
+		margin: auto;
+		margin-top: 10px;
+		font-size: 14px;
+	}
+
+	#message {
+		font-size: 12px;
+	}
+
+	#message::placeholder {
+		font-size: 12px;
+	}
+
+	#sendmessage {
+		font-size: 12px;
 	}
 
 	.mapa {
