@@ -190,7 +190,6 @@ text-align: justify;
 	justify-content: center;
 }
 
-
 .conteudo-esqueci-senha {
 	color: #c0c0c0;
 	display: flex;
@@ -331,6 +330,12 @@ label {
 	color: #f0ffffde;
 }
 
+form {
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
 label > span {
 	margin-bottom: 10px;
 }
@@ -379,7 +384,7 @@ label > textarea::placeholder {
 .btn-login-signup {
 	width: 100%;
 	padding: 16px 0px;
-	margin: 25px;
+	margin: 25px 25px 25px 0px;
 	border: none;
 	border-radius: 8px;
 	outline: none;

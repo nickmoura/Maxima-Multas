@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Máxima Multas - Esqueci minha senha</title>
+	<link rel="stylesheet" href="../assets/css/style.css">
+	<link rel="shortcut icon" href="../assets/img/maxima-multas-website-favicon-color.png" type="image/x-icon">
+	<script src="../assets/js/main.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<div class="logo-maxima">
+			<a href="index.html">
+				<img class="img-logo-maxima" src="../assets/img/maxima-logo.png" alt="Logo da Máxima Multas">
+			</a>
+		</div>
+		<nav>
+			<a href="../index.html">Home</a>
+			<a href="confira.html">Confira sua CNH</a>
+			<a href="contato.html">Contato</a>
+		</nav>
+	</header>
+
+	<main class="main-login-signup">
+		<section class="left-login-signup">
+			<h1>Cadastre-se <br>e acesse nossos serviços!</h1>
+			<img src="../assets/img/Mobile login-bro.svg" class="left-login-image" alt="Cadastro"> 
+			<!-- height="540px" width="540px" -->
+		</section>
+		<section class="right-login-signup">
+			<div class="card-signup">
+				<h1>Cadastre-se!</h1>
+				<section class="social-media">
+					<a href="#">
+						<img src="../assets/img/google.png" alt="Login via Google">
+					</a>
+					<a href="#">
+						<img src="../assets/img/facebook.png" alt="Login via Facebook">
+					</a>
+					<a href="#">
+						<img src="../assets/img/linkedin.png" alt="Login via LinkedIn">
+					</a>
+				</section>
+				<div class="alternative">
+					OU
+				</div>
+				<form action="../includes/config.php">
+					<label for="name">
+						<span>Nome</span>
+						<input type="text" id="name" name="name" placeholder="Nome completo">
+					</label>
+					<label for="cpf">
+						<span>CPF</span>
+						<input type="text" id="cpf" autocomplete="off" inputmode="numeric" maxlength="14" name="cpf" placeholder="Digite aqui seu CPF">
+					</label>
+					<label for="email">
+						<span>E-mail</span>
+						<input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+					</label>
+					<label for="mobile">
+						<span>Celular</span>
+						<input type="tel" name="mobile" id="cel" inputmode="numeric" placeholder="(xx) 00000-0000" maxlength="15">
+					</label>
+					<label for="senha">
+						<span>Senha</span>
+						<input type="password" id="senha" name="pass" placeholder="Digite aqui sua senha">
+					</label>
+					<input class="btn-login-signup" type="submit" value="Cadastre-se!">
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>
+			© 2023 - Nickolas Moura - Todos os direitos reservados - Criado para <a href="https://github.com/nickmoura">meu portfólio de GitHub</a>
+		</p>
+	</footer>
+
+</body>
+
+</html>

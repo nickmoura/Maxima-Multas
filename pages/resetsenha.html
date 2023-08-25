@@ -5,23 +5,25 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Máxima Multas - Esqueci minha senha</title>
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="shortcut icon" href="assets/img/maxima-multas-website-favicon-color.png" type="image/x-icon">
+	<link rel="stylesheet" href="../assets/css/style.css">
+	<link rel="shortcut icon" href="../assets/img/maxima-multas-website-favicon-color.png" type="image/x-icon">
+	<script src="../assets/js/main.js" defer></script>
 </head>
 
 <body>
 	<header>
 		<div class="logo-maxima">
 			<a href="index.html">
-				<img class="img-logo-maxima" src="assets/img/maxima-logo.png" alt="Logo da Máxima Multas">
+				<img class="img-logo-maxima" src="../assets/img/maxima-logo.png" alt="Logo da Máxima Multas">
 			</a>
 		</div>
 		<nav>
-			<a href="index.html">Home</a>
+			<a href="../index.html">Home</a>
 			<a href="confira.html">Confira sua CNH</a>
 			<a href="contato.html">Contato</a>
 		</nav>
 	</header>
+
 	<main class="principal-esqueci-senha">
 		<h1>Esqueceu sua senha?</h1>
 		<div class="card-login">
@@ -30,15 +32,19 @@
 				<section class="area-esqueci-senha">
 					<label class="field-forgot-pass" for="name">
 						<span class="span-no-margin">CPF</span>
-						<input type="text" id="cpf" autocomplete="off" inputmode="numeric" maxlength="14" name="usuario" placeholder="Digite aqui seu CPF">
+						<input type="text" id="cpf" autocomplete="off" inputmode="numeric" maxlength="14" name="usuario"
+							placeholder="Digite aqui seu CPF">
 					</label>
 				</section>
-					<input type="submit" class="btn-login-signup" onclick="alert('Se seu CPF for reconhecido, você receberá um e-mail para redefinir sua senha')" value="Redefinir senha"></input>
+				<input type="submit" class="btn-login-signup"
+					onclick="alert('Se seu CPF for reconhecido, você receberá um e-mail para redefinir sua senha')"
+					value="Redefinir senha"></input>
 			</article>
 		</div>
 		<aside class="preciso-de-ajuda">
 			<h3>Precisa de ajuda?</h3>
-			<p>Caso tenha cadastro na Máxima Multas e não consiga resetar sua senha, <a href="contato.html">entre em contato conosco</a>.</p>
+			<p>Caso tenha cadastro na Máxima Multas e não consiga resetar sua senha, <a href="contato.html">entre em
+					contato conosco</a>.</p>
 		</aside>
 	</main>
 
@@ -49,9 +55,6 @@
 		</p>
 	</footer>
 
-	<script src="main.js">
-		
-	</script>
 </body>
 
 </html>
