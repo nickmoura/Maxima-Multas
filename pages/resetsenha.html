@@ -26,17 +26,17 @@
 
 	<main class="principal-esqueci-senha">
 		<h1>Esqueceu sua senha?</h1>
-		<div class="card-login">
+		<div class="card-login.forgot">
 			<article class="conteudo-esqueci-senha">
 				<h2>Para recuperar seu accesso, precisamos do seu CPF.</h2>
 				<section class="area-esqueci-senha">
 					<label class="field-forgot-pass" for="name">
 						<span class="span-no-margin">CPF</span>
-						<input type="text" id="cpf" autocomplete="off" inputmode="numeric" maxlength="14" name="usuario"
+						<input type="text" class="cpf-forgot" id="cpf" autocomplete="off" inputmode="numeric" maxlength="14" name="usuario"
 							placeholder="Digite aqui seu CPF">
 					</label>
 				</section>
-				<input type="submit" class="btn-login-signup"
+				<input type="submit" class="btn-forgot-pass"
 					onclick="alert('Se seu CPF for reconhecido, você receberá um e-mail para redefinir sua senha')"
 					value="Redefinir senha"></input>
 			</article>

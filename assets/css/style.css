@@ -204,6 +204,7 @@ text-align: justify;
 }
 
 .area-esqueci-senha {
+	width: 70%; 
 	display: flex;
 	flex-direction: row;
 	gap: 24px;
@@ -217,6 +218,23 @@ text-align: justify;
 	align-items: center;
 	justify-content: center;
 	gap: 24px;
+}
+
+.btn-forgot-pass {
+	width: 70%;
+	padding: 16px 0px;
+	margin: 25px 0px 25px 0px;
+	border: none;
+	border-radius: 8px;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 3px;
+	color: #2b134b;
+	background: #00ff88;
+	cursor: pointer;
+	box-shadow: 0px 10px 40px -12px #00ff8052;
+	font-size: 1.1rem;
 }
 
 .span-no-margin {
@@ -384,7 +402,7 @@ label > textarea::placeholder {
 .btn-login-signup {
 	width: 100%;
 	padding: 16px 0px;
-	margin: 25px 25px 25px 0px;
+	margin: 25px 0px 25px 0px;
 	border: none;
 	border-radius: 8px;
 	outline: none;
@@ -599,6 +617,14 @@ label > textarea::placeholder {
 		flex-direction: column;
 	}
 
+	.area-esqueci-senha {
+		width: 100%;
+	}
+
+	.btn-forgot-pass {
+		width: 100%;
+	}
+
 	.container-foto {
 		margin: auto;
 	}
@@ -695,6 +721,7 @@ label > textarea::placeholder {
 	.card-login {
 		width: 90%;
 		text-align: center;
+		font-size: 10px;
 	}
 
 	.card-login label input::placeholder {
@@ -721,6 +748,18 @@ label > textarea::placeholder {
 		flex-direction: column;
 	}
 
+	.area-esqueci-senha {
+		width: 100%;
+	}
+
+	.preciso-de-ajuda {
+		text-align: justify;
+	}
+
+	.cpf-forgot::placeholder {
+		font-size: 12px;
+	}
+
 	.container-foto {
 		margin: auto;
 	}
@@ -728,6 +767,15 @@ label > textarea::placeholder {
 	.btn-login-signup {
 		margin: auto;
 		margin-top: 10px;
+		font-size: 14px;
+	}
+
+	.forgot {
+		margin: 0;
+	}
+
+	.btn-forgot-pass {
+		width: 100%;
 		font-size: 14px;
 	}
 
