@@ -534,6 +534,7 @@ label > textarea::placeholder {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
+		text-align: center;
 		justify-content: space-around;
 		gap: 10px;
 		margin-top: 0;
@@ -549,7 +550,7 @@ label > textarea::placeholder {
 	}
 
 	nav {
-		width: 60%;
+		width: 100%;
 		text-align: center;	}
 
 	nav a {
@@ -678,7 +679,7 @@ label > textarea::placeholder {
 	}
 
 	nav {
-		width: 60%;
+		width: 100%;
 		text-align: center;
 	}
 
