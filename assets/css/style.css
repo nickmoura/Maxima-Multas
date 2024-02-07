@@ -87,8 +87,6 @@ footer p {
 	margin: 0 auto;
 }
 
-
-
 /*Home page*/
 
 .descricao {
@@ -281,7 +279,7 @@ text-align: justify;
 
 .left-login-signup img {
 	width: 35vw;
-}
+} 
 
 .right-login-signup {
 	width: 50vw;
