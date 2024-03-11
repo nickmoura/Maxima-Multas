@@ -90,8 +90,6 @@ footer p {
 	margin: 0 auto;
 }
 
-
-
 /*Home page*/
 
 .descricao {
@@ -296,7 +294,7 @@ h2 {
 
 .left-login-signup img {
 	width: 35vw;
-}
+} 
 
 .right-login-signup {
 	width: 50vw;
@@ -320,8 +318,8 @@ h2 {
 }
 
 .card-signup {
-	width: 60%;
-	height: 95%;
+	width: 100%;
+	height: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -334,6 +332,8 @@ h2 {
 
 .card-login > h1 {
 	color: #00ff88;
+	width: 100%;
+	height: auto;
 	font-weight: 800;
 	margin: 0;
 	margin-bottom: 20px;
@@ -455,7 +455,9 @@ label > textarea::placeholder {
 	margin-left: 0;
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1200px) {
+/*Aqui começam as media queries*/
+
+@media only screen and (min-width: 601px) and (max-width: 1280px) {
 	header {
 		height: 8%;
 		width: 100%;
@@ -493,6 +495,7 @@ label > textarea::placeholder {
 
 	.left-login-signup-image {
 		width: 80%;
+		height: auto;
 		margin: 8px;
 	}
 
@@ -546,6 +549,7 @@ label > textarea::placeholder {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
+		text-align: center;
 		justify-content: space-around;
 		gap: 10px;
 		margin-top: 0;
@@ -561,7 +565,7 @@ label > textarea::placeholder {
 	}
 
 	nav {
-		width: 60%;
+		width: 100%;
 		text-align: center;	}
 
 	nav a {
@@ -690,7 +694,7 @@ label > textarea::placeholder {
 	}
 
 	nav {
-		width: 60%;
+		width: 100%;
 		text-align: center;
 	}
 
