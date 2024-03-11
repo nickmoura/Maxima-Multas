@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,400&display=swap');
 
 /* Para todas as páginas*/
-body {
-	margin: 0;
+* {
 	font-family: 'Noto Sans', sans-serif;
-	background: #201b2c;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
 }
 
-body * {
-	box-sizing: border-box;
+body, html {
+	background: #201b2c;
+	height: 100vh;
+	width: 100vw;
 }
 
 a {
@@ -21,8 +24,8 @@ a:visited {
 }
 
 header {
-	/*width: 100vw;*/
 	height: 8vh;
+	width: 90vw;
 	border-bottom: 0.2px solid white;
 	display: flex;
 	flex-direction: row;
@@ -58,8 +61,8 @@ nav {
 }
 
 main {
-	/*width: 100vw;*/
-	padding: 20px;
+	margin: auto;
+	width: 90vw;
 }
 
 main h1,
@@ -75,8 +78,8 @@ h2 {
 
 footer {
 	border-top: 0.2px solid white;
-	/*width: 100vw;*/
 	height: 8vh;
+	width: 90vw;
 	padding: 32px;
 	text-align: center;
 }
@@ -134,10 +137,21 @@ text-align: justify;
 }
 */
 
+h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
 .container-depoimentos {
 	display: flex;
 	flex-direction: row;
+	width: 80vw;
 	gap: 24px;
+	margin: auto;
 }
 
 .depoimento {
@@ -145,6 +159,7 @@ text-align: justify;
 	background-color: #eee;
 	border-radius: 5px;
 	padding: 16px;
+	width: 100%;
 	margin: auto;
 	text-align: justify;
 }

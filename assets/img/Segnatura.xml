@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Segnatura SYSTEM "Segnatura.dtd">
+<Segnatura>
+<Intestazione>
+<Identificatore>
+<CodiceAmministrazione></CodiceAmministrazione>
+<CodiceAOO></CodiceAOO>
+<CodiceRegistro></CodiceRegistro>
+<NumeroRegistrazione>0012527</NumeroRegistrazione>
+<DataRegistrazione>2020-08-14</DataRegistrazione>
+    </Identificatore>
+      <OraRegistrazione tempo="locale">11:29:32</OraRegistrazione>
+    <Origine>
+      <IndirizzoTelematico tipo="smtp">sanmartinodilupari.pd@cert.ip-veneto.net</IndirizzoTelematico>
+      <Mittente>
+        <Amministrazione>
+          <Denominazione>COMUNE DI SAN MARTINO DI LUPARI</Denominazione>
+          <CodiceAmministrazione></CodiceAmministrazione>
+          <IndirizzoPostale>
+              <Denominazione></Denominazione>
+          </IndirizzoPostale>
+        </Amministrazione>
+        <AOO>
+          <Denominazione>COMUNE DI SAN MARTINO DI LUPARI</Denominazione>
+          <CodiceAOO></CodiceAOO>
+        </AOO>
+      </Mittente>
+    </Origine>
+<Destinazione confermaRicezione="no">
+<IndirizzoTelematico tipo="smtp">nickolas.moura@outlook.com</IndirizzoTelematico>
+<Destinatario>
+<Persona>
+<Nome>NICKOLAS</Nome>
+<Cognome>MENSATTO MOURA</Cognome>
+</Persona>
+</Destinatario>
+</Destinazione>
+    <Oggetto>DUE COPIE DEL CERTIFICATO DI NASCITA DEL TRISAVOLO MATERNO: MENZATO MARCO NATO IL 5 GIUGNO 1885</Oggetto>
+    <Classifica>
+      <CodiceAmministrazione></CodiceAmministrazione>
+      <CodiceAOO></CodiceAOO>
+      <Denominazione>STATO CIVILE</Denominazione>
+      <Livello>11</Livello>
+      <Livello>01</Livello>
+    </Classifica>
+  </Intestazione>
+    <Descrizione>
+        <Documento nome="Prot_Par 0012527 del 14-08-2020 - Documento doc03352120200814113133.pdf" tipoRiferimento="MIME"></Documento>
+    </Descrizione>
+</Segnatura>
